@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first Playground</title>
+    <style>
+        * {
+            border-color: 1px solid blue;
+            margin: 0;
+            padding: 0;
+            border-color:  1px solid blue;
+        }
+        #ply{
+            font-family: Corporate Logo Bold;
+            color: red;
+            font-size: 70px;
+            margin-left: 176px;
+        }
+        div.phr{
+            display: inline-block;
+            font-family: Corporate Logo Bold;
+            border:1px solid blue;
+            background-color: blue;
+            font-size: 60px;
+            margin-left: 100px;
+            width: 300px;
+            height: 300px;
+            margin-top: 40px;
+        }
+        #num{
+            color: red;
+            font-size: 50px;
+            margin-left: 176px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="ply">Welcome to the Playground!</h1>
+    {% for x in range(0, times) %}
+    <div class="phr" style="background-color: {{ color }}"></div>
+{% endfor %}
+    
+     
+    
+    
+</body>
+</html>
