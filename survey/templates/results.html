@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+    <body>
+        <div class="container">
+            <h3>Info Submitted by User:</h3>
+            <p><span>Name:</span>  {{name}}</p>
+            <p><span>Dojo Location:</span>  {{dojo}}</p>
+            <p><span>Favorite Language:</span>  {{language}}</p>
+            <p><span>Comment:</span>  {{comment}}</p>
+        </div>
+    </body>
+</html>
